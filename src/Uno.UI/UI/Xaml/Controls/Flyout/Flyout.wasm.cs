@@ -15,6 +15,7 @@ namespace Windows.UI.Xaml.Controls
 		partial void SetPopupPositionPartial(UIElement placementTarget)
 		{
 			_popup.Anchor = placementTarget;
+			_popup.AnchorPlacement = Placement;
 		}
 	}
 }

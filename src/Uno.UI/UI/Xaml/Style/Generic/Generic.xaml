@@ -518,8 +518,7 @@
 		<Setter Property="ItemsPanel">
 			<Setter.Value>
 				<ItemsPanelTemplate>
-					<wasm:ItemsStackPanel Orientation="Vertical" />
-					<not_wasm:CarouselPanel />
+					<CarouselPanel />
 				</ItemsPanelTemplate>
 			</Setter.Value>
 		</Setter>

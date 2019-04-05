@@ -24,6 +24,7 @@
 * The `HAS_UNO` define is now not defined in `uap10.0.x` target frameworks.
 * The `XamlReader` fails when a property has no getter
 * `Click` and `Tapped` events were not working property for `ButtonBase` on Android and iOS.
+* Adjust support for `StaticResource.ResourceKey`
 
 ## Release 1.44.0
 

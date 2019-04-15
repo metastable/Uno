@@ -19,6 +19,7 @@
 * 145203 [iOS] Support ScrollViewer.ChangeView() inside TextBox
 * 150793 [iOS] Add ListView.UseCollectionAnimations flag to allow disabling native insert/delete animations
 * [Wasm] Added support for custom DOM events
+* WebAssembly UI tests are now integrated in the CI
 
 ### Breaking Changes
 * The `WebAssemblyRuntime.InvokeJSUnmarshalled` method with three parameters has been removed.
